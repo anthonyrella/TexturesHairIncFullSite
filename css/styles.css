@@ -23,9 +23,16 @@ body {
     text-align: center;
 }
 .carousel-item img {
-    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    width: 100%;
+    object-fit: cover;
 }
-
+#landingCarousel{
+    min-height: 100vh;
+    width: 100%;
+}
 #bookNow{
     padding: 40px;
     text-align: center;
