@@ -1,0 +1,183 @@
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+.navbar {
+    background-color: #b0a8a6;
+    opacity: 0.96;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #630430 !important;
+}
+
+.nav-link.active{
+    color: #630430 !important;
+}
+
+.carousel-item {
+    text-align: center;
+}
+.carousel-item img {
+    max-width: 100%;
+}
+
+#bookNow{
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #630430;
+}
+
+#bookNow a{
+    color: #630430;
+    border: solid;
+    border-width: 1px;
+    font-size: 20px;
+
+}
+
+
+#salonContentWrapper{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#salonContent{
+    
+    padding: 30px;
+    white-space: pre-line;
+    color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid;
+    border-width: 1px;
+    border-color: #630430;
+    
+}
+
+#salonContent div{
+    padding: 30px;
+    text-align: center;
+}
+
+.contentMarginAdjust{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#textures{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 0.5px 0.5px 0.5px #630430;
+  
+}
+#salonImage {
+  padding: 0px;
+
+}
+
+.divider{
+    padding: 0px !important;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #630430;
+    width: 80%;
+}
+
+#services{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 0.5px 0.5px 0.5px #630430;
+    color: white;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #630430;
+}
+
+.serviceContent, .contactContent{
+    padding-top: 20px;
+    
+}
+
+.serviceContent{
+    padding-bottom: 40px;
+}
+
+#fullServiceSection{
+    background-color: #b0a8a6;
+}
+.card{
+    background-image: url(../img/cement-concrete.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.card-columns{
+    column-count: 2;
+}
+@media only screen and (max-width: 992px) {
+    .card-columns{
+        column-count: 1;
+    }
+}
+
+.card:hover{
+    box-shadow: 1px 1px 5px #630430;
+}
+.card-text {
+    color:#630430;
+}
+
+.servicesPerCategory{
+    white-space: pre-line;
+}
+
+#contact{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 0.5px 0.5px 0.5px #630430;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #630430;
+}
+
+#hours{
+    white-space: pre-line;
+}
+
+.applyTheme{
+    color:#630430;
+}
+
+#address{
+    font-size: 18px;
+}
+
+#phoneNumber{
+    font-size: 18px;
+}
+
+#contactInformation{
+    padding-bottom: 40px;
+}
+
+.in-view{
+    opacity: 1 !important;
+    transition: opacity 2s ease-in !important;
+    -webkit-transition: opacity 2s ease-in !important;
+    -moz-transition: opacity 2s ease-in !important;
+    -ms-transition: opacity 2s ease-in !important;
+    -o-transition: opacity 2s ease-in !important;
+}
