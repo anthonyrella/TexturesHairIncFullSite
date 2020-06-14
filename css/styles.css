@@ -51,12 +51,12 @@ body {
 }
 
 
-#salonContentWrapper{
+#salonContentWrapper, #covidWrapper{
     font-size: 20px;
     padding-bottom: 20px;
 }
 
-#salonContent{
+#salonContent, #covidContent{
     
     padding: 30px;
     white-space: pre-line;
@@ -81,7 +81,7 @@ body {
     margin-right: 80px;
 }
 
-#textures{
+#textures, #covid{
     padding-top: 40px;
     text-align: center;
     padding-bottom: 10px;
